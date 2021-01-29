@@ -1,36 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    display: grid;
-    place-items: center;
-    background: url("bck.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: url("bck.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.button{
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px 20px;
+.button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 20px;
 }
 
-.timer{
-    font-size: 6rem;
+.timer {
+  font-size: 6rem;
 }
 
-.desc{
-    font-size: 3rem;
-    color: rgb(34, 33, 33);
+.desc {
+  font-size: 3rem;
+  color: #222121;
 }
 
-.main-container{
-    text-align: center;
-    margin-top: 10%;
-    border: 1px solid rgba(211, 206, 206, 0.74);
-    background-color: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    width: 80%;
-    height: 80%;
+.main-container {
+  text-align: center;
+  margin-top: 10%;
+  border: 1px solid rgba(211, 206, 206, 0.74);
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 80%;
+  height: 80%;
 }
+/*# sourceMappingURL=style.css.map */
